@@ -2,7 +2,7 @@ import httplib2
 import json
 
 def getgeoLocation(address):
-	api_key = "AIzaSyA2wXs8rTDDeVWjDu0lfy-dcE69eFJfYM4"
+	api_key = "xxxxxxxxx"
 	address = address.replace(" ","+")
 	url = ("https://maps.googleapis.com/maps/api/geocode/json?address=%s&key=%s" %(address,api_key))
 	h = httplib.Http()
